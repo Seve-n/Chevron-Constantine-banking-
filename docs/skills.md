@@ -1,6 +1,6 @@
 # Skills Matrix
 
-A quick-reference mapping from claimed skill to concrete evidence in this repository — useful for
+A quick-reference mapping from claimed skill to concrete evidence in this repository, useful for
 tailoring a CV bullet or answering "can you give me an example of X" without having to reconstruct
 the project from memory.
 
@@ -27,7 +27,7 @@ the project from memory.
 | Data cleaning & quality | Found and fixed 81 exact duplicates, 1 casing-induced duplicate, 167 missing values (imputed, not dropped, to preserve segment visibility) | [python/data_cleaning.py](../python/data_cleaning.py) |
 | SQL | 3 independent query sets (KPIs, funnel with `LEAD()`, segmentation) cross-verified against Python output | [sql/](../sql/) |
 | Data modeling | Flat step-event table collapsed to session grain consistently across Python (`build_session_table`), SQL, and the Power BI star-schema spec | [python/analysis.py](../python/analysis.py), [dashboard/README.md](../dashboard/README.md#data-model) |
-| KPI design & governance | Single KPI definitions reused (not re-derived) across 3 tools — a real SQL bug was caught specifically because of this cross-check | [docs/methodology.md](methodology.md#consistency-principle-one-kpi-one-definition) |
+| KPI design & governance | Single KPI definitions reused (not re-derived) across 3 tools; a real SQL bug was caught specifically because of this cross-check | [docs/methodology.md](methodology.md#consistency-principle-one-kpi-one-definition) |
 | Debugging / root-cause analysis | 3 documented bugs found and fixed during the project, with the reasoning for each fix | [docs/interview-preparation.md](interview-preparation.md#tell-me-about-a-mistake-or-bug-you-caught-during-this-project) |
 | Version control (Git/GitHub) | Full project history, `.gitignore` decisions documented (e.g. why the CSV is committed but the SQLite DB is not) | [sql/README.md](../sql/README.md) |
 
@@ -37,5 +37,5 @@ the project from memory.
 |---|---|
 | Intellectual honesty over completeness | REQ-007 and US-007 left at discovery stage; Action G marked "investigate further"; notebook gap disclosed in README rather than hidden |
 | Communicating trade-offs, not just answers | Insight 2 (rate vs. volume) explicitly presented as two legitimate framings, not a single "correct" ranking |
-| Self-directed prioritization under ambiguity | Recommendations roadmap built without a real stakeholder to arbitrate — impact/effort criteria stated explicitly so the reasoning is auditable |
+| Self-directed prioritization under ambiguity | Recommendations roadmap built without a real stakeholder to arbitrate; impact/effort criteria stated explicitly so the reasoning is auditable |
 | Learning from your own mistakes | Bug retrospectives written as lessons ("verification isn't a one-time checklist item"), not just fixes |

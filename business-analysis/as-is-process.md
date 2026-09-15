@@ -1,15 +1,16 @@
-# As-Is Process — Digital Journey (Generic Model)
+# As-Is Process: Digital Journey (Generic Model)
 
 ## Purpose
 
-Before designing the dataset, it helps to map out what a typical Chevron Constantine Banking digital journey looks
-like today. This is a **generic model** that applies, with minor variations, to all four journeys
-in scope (`account_opening`, `credit_application`, `bank_transfer`, `personal_data_update`). It is
-based on reasonable assumptions about how digital banking journeys are typically built — not on
-real Chevron Constantine Banking/Belfius process documentation.
+Before designing the dataset, it helps to map out what a typical Chevron Constantine Banking
+digital journey looks like today. This is a **generic model** that applies, with minor
+variations, to all four journeys in scope (`account_opening`, `credit_application`,
+`bank_transfer`, `personal_data_update`). It is based on reasonable assumptions about how digital
+banking journeys are typically built, not on real Chevron Constantine Banking/Belfius process
+documentation.
 
 This process map will directly shape the `step_name` and `step_order` fields in the dataset
-(Phase 2), and will be revisited as **as-is** once real findings are available — producing the
+(Phase 2), and will be revisited as **as-is** once real findings are available, producing the
 [to-be-process.md](to-be-process.md) later in the project.
 
 ## Process Steps
@@ -45,7 +46,7 @@ Customer
 - **Decision point:** Is the desired service available/eligible for this customer?
 - **Potential errors:** Service temporarily unavailable, customer not eligible (e.g., existing
   product conflict).
-- **Assumed friction:** Low, generally — but unclear navigation/menu labeling could cause
+- **Assumed friction:** Low, generally, but unclear navigation/menu labeling could cause
   hesitation or wrong selections.
 
 ### 3. Information Input
@@ -64,8 +65,8 @@ Customer
 
 - **Actor(s):** Customer, backend verification system (identity checks, business rules, fraud
   checks).
-- **Description:** The information submitted is validated — either instantly or with a short
-  wait — and the customer may be asked to confirm or correct details.
+- **Description:** The information submitted is validated, either instantly or with a short
+  wait, and the customer may be asked to confirm or correct details.
 - **Decision point:** Does the submitted information pass verification? → proceed / fail →
   return to step 3.
 - **Potential errors:** Verification system timeout, false rejections, unclear rejection reasons.
@@ -89,12 +90,12 @@ Customer
 - **Support contact** can plausibly happen at any step, but is most expected around steps 3 and
   4 (input and verification), where errors and uncertainty are highest.
 - **Abandonment reasons** likely cluster into a few categories: too complex/long, technical
-  error, changed their mind, missing required document/information — this will be reflected in
+  error, changed their mind, missing required document/information. This will be reflected in
   the `abandonment_reason` field in the dataset.
 - Journeys differ in complexity: `credit_application` is assumed to involve more input fields and
   stricter verification than `personal_data_update`, so it is expected (not yet confirmed) to
   show higher abandonment.
 
 These assumptions exist to guide realistic data generation in Phase 3. They are explicitly
-**hypotheses**, not conclusions — the actual analysis (Phases 5–8) will confirm, adjust, or
+hypotheses, not conclusions. The actual analysis (Phases 5-8) will confirm, adjust, or
 contradict them.

@@ -1,17 +1,17 @@
 # Stakeholder Analysis
 
-This project simulates a typical Business Analyst engagement inside a digital bank. Understanding
-who cares about digital journey abandonment — and why — shapes which questions matter and how
-recommendations should be framed later on.
+This project simulates a typical Business Analyst engagement inside a digital bank.
+Understanding who cares about digital journey abandonment, and why, shapes which questions
+matter and how recommendations should be framed later on.
 
 ## Product Manager
 
 - **Role:** Owns the roadmap for the digital banking app; decides what gets built and when.
 - **Interest:** Wants to know which journeys to fix first to maximize business impact
   (conversion, customer satisfaction) for the least development effort.
-- **Needs:** A prioritized list of problems backed by data, not opinions — ideally ranked by
+- **Needs:** A prioritized list of problems backed by data, not opinions, ideally ranked by
   volume of customers affected and ease of fix.
-- **Influence:** High — controls the backlog. Recommendations that don't speak the PM's language
+- **Influence:** High. Controls the backlog. Recommendations that don't speak the PM's language
   (impact, effort, priority) won't get scheduled.
 
 ## Business Analyst (this role)
@@ -22,24 +22,24 @@ recommendations should be framed later on.
   needing to interpret raw data themselves.
 - **Needs:** Access to data, alignment with stakeholders on what "success" looks like, and a
   structured way to turn insights into requirements and user stories.
-- **Influence:** Medium-high — shapes how the problem is framed and what gets prioritized, but
+- **Influence:** Medium-high. Shapes how the problem is framed and what gets prioritized, but
   doesn't own final build decisions.
 
 ## Customer Experience Manager
 
 - **Role:** Responsible for the quality of the customer journey and overall satisfaction with
   digital channels.
-- **Interest:** Wants to understand where customers get frustrated, confused, or blocked — and
+- **Interest:** Wants to understand where customers get frustrated, confused, or blocked, and
   whether abandonment reflects a UX problem, a trust problem, or something else.
-- **Needs:** Journey-level detail (not just aggregate numbers): which step, which error, which
+- **Needs:** Journey-level detail, not just aggregate numbers: which step, which error, which
   segment. Evidence to justify UX investment to leadership.
 - **Influence:** High on UX/process decisions, lower on technical implementation timing.
 
 ## IT
 
 - **Role:** Builds and maintains the digital platform; implements whatever changes are approved.
-- **Interest:** Wants precise, technically translatable requirements — not vague complaints.
-  Also cares about technical root causes (e.g., is a high error rate a UX issue or a system
+- **Interest:** Wants precise, technically translatable requirements, not vague complaints. Also
+  cares about technical root causes (e.g., is a high error rate a UX issue or a system
   reliability issue?).
 - **Needs:** Clear functional requirements with acceptance criteria, and enough context to
   estimate effort and flag technical constraints early.
@@ -53,7 +53,7 @@ recommendations should be framed later on.
   reinterpreted differently by each team.
 - **Needs:** Agreement on KPI definitions (e.g., what exactly counts as "abandoned") before
   numbers are shared widely, to avoid conflicting reports.
-- **Influence:** Medium — shapes what can be measured and how confidently conclusions can be
+- **Influence:** Medium. Shapes what can be measured and how confidently conclusions can be
   stated, but doesn't set business priorities.
 
 ## Customer Support
@@ -64,10 +64,10 @@ recommendations should be framed later on.
   out.
 - **Needs:** Visibility into which steps generate the most support contacts, so staffing and
   scripts/FAQs can be adjusted proactively.
-- **Influence:** Medium — often the first to notice a problem (via contact volume) but has
+- **Influence:** Medium. Often the first to notice a problem (via contact volume) but has
   limited power to change the product itself; escalates findings to Product/CX.
 
-## Summary — Power/Interest View
+## Summary: power/interest view
 
 | Stakeholder | Interest in this project | Influence on outcomes |
 |---|---|---|
@@ -79,6 +79,6 @@ recommendations should be framed later on.
 | Customer Support | Medium | Medium |
 
 **Why this matters for the project:** Product Manager and CX Manager are the primary audience
-for the final recommendations — they have both high interest and high influence. IT is the
+for the final recommendations. They have both high interest and high influence. IT is the
 audience for the functional requirements and user stories. This shapes how the final report and
 requirements documents are written later in the project.

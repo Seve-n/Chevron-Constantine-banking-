@@ -1,12 +1,12 @@
 # Banking Customer Journey Analysis
 
-**Status:** ✅ Complete — all 15 phases delivered, from business framing to interview
+**Status:** ✅ Complete. All 15 phases delivered, from business framing to interview
 preparation.
 
 A Business Analyst case study simulating a digital journey abandonment investigation for
 **Chevron Constantine Banking**, a fictional digital bank, built as a portfolio project for a Business Analyst
-alternance application. The project follows a full BA workflow — from business problem to data
-analysis to actionable recommendations — using a synthetic dataset (no real banking data of any
+alternance application. The project follows a full BA workflow, from business problem to data
+analysis to actionable recommendations, using a synthetic dataset (no real banking data of any
 kind).
 
 ## Business Problem
@@ -19,11 +19,11 @@ Full framing: [business-analysis/project-brief.md](business-analysis/project-bri
 
 ## Start here
 
-- **Full findings:** [docs/final-report.md](docs/final-report.md) — 5 insights, each with
+- **Full findings:** [docs/final-report.md](docs/final-report.md), with 5 insights, each with
   evidence, interpretation, a recommendation, and a KPI to monitor, plus the prioritized
   recommendations roadmap.
-- **How this was built:** [docs/methodology.md](docs/methodology.md) — workflow, tool choices,
-  and the consistency/honesty principles enforced throughout.
+- **How this was built:** [docs/methodology.md](docs/methodology.md), covering workflow, tool
+  choices, and the consistency/honesty principles enforced throughout.
 - **Interview-ready summary:** [docs/interview-preparation.md](docs/interview-preparation.md) and
   [docs/skills.md](docs/skills.md).
 
@@ -56,7 +56,7 @@ banking-customer-journey-analysis/
 
 > **Note on `notebooks/`:** an exploratory notebook was planned in the original project brief as
 > a pedagogical extra, but was not part of the 15 numbered phases actually executed and was not
-> built — `python/analysis.py` and the `sql/` queries cover the same analysis. The empty folder
+> built. `python/analysis.py` and the `sql/` queries cover the same analysis. The empty folder
 > is called out here rather than silently dropped or left as an unexplained gap.
 
 ## Current Progress
@@ -81,27 +81,27 @@ banking-customer-journey-analysis/
 
 ## Technologies
 
-Python (pandas), SQL (SQLite), Power BI (specification only — see
+Python (pandas), SQL (SQLite), Power BI (specification only; see
 [dashboard/README.md](dashboard/README.md) for why), Git/GitHub.
 
 ## Business Analyst Skills Demonstrated
 
-- **Stakeholder analysis** — [business-analysis/stakeholders.md](business-analysis/stakeholders.md)
-- **Requirements engineering** — [business-analysis/requirements.md](business-analysis/requirements.md),
+- **Stakeholder analysis:** [business-analysis/stakeholders.md](business-analysis/stakeholders.md)
+- **Requirements engineering:** [business-analysis/requirements.md](business-analysis/requirements.md),
   including a requirement (REQ-007) deliberately left at discovery stage rather than forced
-- **Process mapping (As-Is / To-Be)** — [as-is-process.md](business-analysis/as-is-process.md) /
+- **Process mapping (As-Is / To-Be):** [as-is-process.md](business-analysis/as-is-process.md) /
   [to-be-process.md](business-analysis/to-be-process.md), with every to-be change traced back to
   a specific insight and requirement
-- **Business questions → data requirements mapping** —
+- **Business questions → data requirements mapping:**
   [business-analysis/business-questions.md](business-analysis/business-questions.md)
-- **Data analysis (Python, SQL)** — funnel analysis, segmentation, rate-vs-volume prioritization
-- **KPI design** — one set of KPI definitions reused consistently across Python, SQL, and the
+- **Data analysis (Python, SQL):** funnel analysis, segmentation, rate-vs-volume prioritization
+- **KPI design:** one set of KPI definitions reused consistently across Python, SQL, and the
   dashboard spec (see [docs/methodology.md](docs/methodology.md))
-- **User stories & acceptance criteria** — [business-analysis/user-stories.md](business-analysis/user-stories.md),
+- **User stories & acceptance criteria:** [business-analysis/user-stories.md](business-analysis/user-stories.md),
   including a story (US-007) intentionally left without acceptance criteria pending discovery
-- **Business recommendations & prioritization** — impact/effort roadmap in
+- **Business recommendations & prioritization:** impact/effort roadmap in
   [docs/final-report.md](docs/final-report.md)
-- **Dashboard specification** — [dashboard/README.md](dashboard/README.md)
+- **Dashboard specification:** [dashboard/README.md](dashboard/README.md)
 
 ## Disclaimer
 

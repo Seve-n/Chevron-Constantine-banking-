@@ -42,8 +42,8 @@ Each question will later be mapped to specific data, KPIs, and analysis in
 
 ## A note on causality
 
-Several of these questions ask "why" — but the dataset used in this project is observational,
-not experimental. Findings will be phrased carefully (e.g., "higher error rates are associated
-with higher abandonment on this step") rather than asserting a direct cause, unless the evidence
-is strong enough to justify it. This distinction matters and is something I should be able to
+Several of these questions ask "why," but the dataset used in this project is observational, not
+experimental. Findings will be phrased carefully (e.g., "higher error rates are associated with
+higher abandonment on this step") rather than asserting a direct cause, unless the evidence is
+strong enough to justify it. This distinction matters and is something I should be able to
 explain clearly in an interview.

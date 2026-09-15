@@ -3,7 +3,7 @@
 This document maps each business question from [business-questions.md](business-questions.md) to
 the data needed to answer it, the KPI(s) involved, and the type of analysis required. It exists
 to make sure the synthetic dataset (designed in Phase 2) is actually built to answer real
-questions — not the other way around.
+questions, not the other way around.
 
 | # | Business Question | Data Needed | KPI | Analysis |
 |---|---|---|---|---|
@@ -35,5 +35,5 @@ captures, at minimum, one row per **step event** within a **session** within a *
 - **Journey outcome:** `completed`, `abandoned`, `abandonment_reason`
 - **Time:** `timestamp`
 
-This list directly informs the dataset design in Phase 2 — nothing here is arbitrary; every
-column exists because a business question in this document needs it.
+This list directly informs the dataset design in Phase 2. Every column exists because a business
+question in this document needs it.

@@ -1,4 +1,4 @@
-# Project Brief — Banking Customer Journey Analysis
+# Project Brief: Banking Customer Journey Analysis
 
 ## Context
 
@@ -7,15 +7,15 @@ key operations entirely through its mobile and web app: opening an account, appl
 transferring money, or updating personal information.
 
 Product and Customer Experience teams have noticed, anecdotally, that a meaningful share of
-customers **start** these digital journeys but never **finish** them. So far this has not been
-studied systematically — nobody can say with confidence which journeys are most affected, at
-which step customers give up, or why.
+customers start these digital journeys but never finish them. So far this has not been studied
+systematically. Nobody can say with confidence which journeys are most affected, at which step
+customers give up, or why.
 
 ## Business Problem
 
-Chevron Constantine Banking does not have a clear, data-backed view of **where and why customers abandon digital
-journeys**. Without this view, the bank cannot prioritize product fixes, cannot brief IT on what
-to build first, and cannot measure whether future changes actually help.
+Chevron Constantine Banking does not have a clear, data-backed view of where and why customers abandon digital
+journeys. Without this view, the bank cannot prioritize product fixes, cannot brief IT on what to
+build first, and cannot measure whether future changes actually help.
 
 ## Objective
 
@@ -45,13 +45,13 @@ Concretely, this project aims to answer:
 
 **Out of scope:**
 
-- Any real Chevron Constantine Banking/Belfius data — the dataset is entirely synthetic.
-- Implementation of the recommended product changes (this project stops at the
-  recommendation/requirement stage, not the build).
+- Any real Chevron Constantine Banking/Belfius data. The dataset is entirely synthetic.
+- Implementation of the recommended product changes. This project stops at the
+  recommendation/requirement stage, not the build.
 - Statistical causal inference (A/B testing, experiments). Findings are described as
   associations ("associated with", "may indicate"), not proven causes.
-- Financial risk, credit scoring, or fraud analysis — the focus is the digital *experience*,
-  not the underlying financial decision.
+- Financial risk, credit scoring, or fraud analysis. The focus is the digital experience, not
+  the underlying financial decision.
 
 ## Stakeholders
 
@@ -68,15 +68,15 @@ Because this is a portfolio project and not a live engagement, some inputs are a
 than confirmed with real stakeholders:
 
 - Each customer interaction is captured as an event with a timestamp, a step name, a duration,
-  and an error count — this is a realistic minimum for any modern digital banking platform.
-- A journey is considered **abandoned** if it was started but not completed within the observed
-  session (no explicit "cancel" action is required — silence counts as abandonment, which is
-  itself a finding worth flagging to Product).
+  and an error count. This is a realistic minimum for any modern digital banking platform.
+- A journey is considered abandoned if it was started but not completed within the observed
+  session (no explicit "cancel" action is required; silence counts as abandonment, itself a
+  finding worth flagging to Product).
 - The four journeys chosen are representative of common digital banking operations, not an
   exhaustive list of everything Chevron Constantine Banking offers.
 - "Support contact" is treated as a signal of friction, not necessarily of a good or bad outcome.
 
-## KPIs (initial list — refined once data is available)
+## KPIs (initial list, refined once data is available)
 
 - Completion rate (overall and per journey)
 - Abandonment rate (overall, per journey, per step)
