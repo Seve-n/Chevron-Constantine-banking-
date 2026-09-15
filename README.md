@@ -62,21 +62,21 @@ banking-customer-journey-analysis/
 
 | Phase | Deliverable | Status |
 |---|---|---|
-| 1 | Business Analysis framing (brief, stakeholders, questions, data requirements, as-is process) | ✅ Done |
-| 2 | Dataset design | ✅ Done |
-| 3 | Synthetic data generation | ✅ Done |
-| 4 | Data quality & cleaning | ✅ Done |
-| 5 | Python analysis | ✅ Done |
-| 6 | SQL analysis | ✅ Done |
-| 7 | Funnel & segmentation analysis | ✅ Done |
-| 8 | Business insights | ✅ Done |
-| 9 | Recommendations | ✅ Done |
-| 10 | Requirements & user stories | ✅ Done |
-| 11 | To-be process | ✅ Done |
-| 12 | Dashboard specification | ✅ Done |
-| 13 | Final report | ✅ Done |
-| 14 | README & portfolio polish | ✅ Done |
-| 15 | Interview preparation | ✅ Done |
+| 1 | Business Analysis framing (brief, stakeholders, questions, data requirements, as-is process) |  Done |
+| 2 | Dataset design |  Done |
+| 3 | Synthetic data generation |  Done |
+| 4 | Data quality & cleaning |  Done |
+| 5 | Python analysis |  Done |
+| 6 | SQL analysis |  Done |
+| 7 | Funnel & segmentation analysis |  Done |
+| 8 | Business insights |  Done |
+| 9 | Recommendations |  Done |
+| 10 | Requirements & user stories |  Done |
+| 11 | To-be process |  Done |
+| 12 | Dashboard specification | Done |
+| 13 | Final report |  Done |
+| 14 | README & portfolio polish |  Done |
+
 
 ## Technologies
 
