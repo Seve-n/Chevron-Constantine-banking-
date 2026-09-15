@@ -24,8 +24,7 @@ Full framing: [business-analysis/project-brief.md](business-analysis/project-bri
   recommendations roadmap.
 - **How this was built:** [docs/methodology.md](docs/methodology.md), covering workflow, tool
   choices, and the consistency/honesty principles enforced throughout.
-- **Interview-ready summary:** [docs/interview-preparation.md](docs/interview-preparation.md) and
-  [docs/skills.md](docs/skills.md).
+- **Skills demonstrated, with evidence:** [docs/skills.md](docs/skills.md).
 
 ## Methodology
 
@@ -51,7 +50,7 @@ banking-customer-journey-analysis/
 ├── python/                # Data generation, cleaning, and analysis scripts
 ├── sql/                    # SQLite KPI, funnel, and segmentation queries
 ├── dashboard/              # Power BI dashboard specification
-└── docs/                   # Methodology, final business report, and interview prep
+└── docs/                   # Methodology, final business report, and skills summary
 ```
 
 > **Note on `notebooks/`:** an exploratory notebook was planned in the original project brief as

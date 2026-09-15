@@ -28,7 +28,7 @@ the project from memory.
 | SQL | 3 independent query sets (KPIs, funnel with `LEAD()`, segmentation) cross-verified against Python output | [sql/](../sql/) |
 | Data modeling | Flat step-event table collapsed to session grain consistently across Python (`build_session_table`), SQL, and the Power BI star-schema spec | [python/analysis.py](../python/analysis.py), [dashboard/README.md](../dashboard/README.md#data-model) |
 | KPI design & governance | Single KPI definitions reused (not re-derived) across 3 tools; a real SQL bug was caught specifically because of this cross-check | [docs/methodology.md](methodology.md#consistency-principle-one-kpi-one-definition) |
-| Debugging / root-cause analysis | 3 documented bugs found and fixed during the project, with the reasoning for each fix | [docs/interview-preparation.md](interview-preparation.md#tell-me-about-a-mistake-or-bug-you-caught-during-this-project) |
+| Debugging / root-cause analysis | 3 documented bugs found and fixed during the project, with the reasoning for each fix | See the retrospective in [docs/methodology.md](methodology.md#consistency-principle-one-kpi-one-definition) |
 | Version control (Git/GitHub) | Full project history, `.gitignore` decisions documented (e.g. why the CSV is committed but the SQLite DB is not) | [sql/README.md](../sql/README.md) |
 
 ## Soft skills demonstrated through project decisions
