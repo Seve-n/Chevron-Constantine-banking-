@@ -1,8 +1,5 @@
 # Banking Customer Journey Analysis
 
-**Status:** ✅ Complete. All 15 phases delivered, from business framing to interview
-preparation.
-
 A Business Analyst case study simulating a digital journey abandonment investigation for
 **Chevron Constantine Banking**, a fictional digital bank, built as a portfolio project for a Business Analyst
 alternance application. The project follows a full BA workflow, from business problem to data
@@ -57,26 +54,6 @@ banking-customer-journey-analysis/
 > a pedagogical extra, but was not part of the 15 numbered phases actually executed and was not
 > built. `python/analysis.py` and the `sql/` queries cover the same analysis. The empty folder
 > is called out here rather than silently dropped or left as an unexplained gap.
-
-## Current Progress
-
-| Phase | Deliverable | Status |
-|---|---|---|
-| 1 | Business Analysis framing (brief, stakeholders, questions, data requirements, as-is process) |  Done |
-| 2 | Dataset design |  Done |
-| 3 | Synthetic data generation |  Done |
-| 4 | Data quality & cleaning |  Done |
-| 5 | Python analysis |  Done |
-| 6 | SQL analysis |  Done |
-| 7 | Funnel & segmentation analysis |  Done |
-| 8 | Business insights |  Done |
-| 9 | Recommendations |  Done |
-| 10 | Requirements & user stories |  Done |
-| 11 | To-be process |  Done |
-| 12 | Dashboard specification | Done |
-| 13 | Final report |  Done |
-| 14 | README & portfolio polish |  Done |
-
 
 ## Technologies
 
